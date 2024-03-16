@@ -1,0 +1,32 @@
+// Colors
+$background: #f8fafb;
+$foreground: #101828;
+$foreground-accent: #000000de;
+$foreground-muted: #94aeb8;
+$card: #fdfdff;
+$popover: #fdfdff;
+$primary: #5753c6;
+$primary-soft: #e6e7ff;
+$primary-foreground: #fff;
+$secondary: #3a5bc7;
+$secondary-soft: #e1e9ff;
+$secondary-foreground: #fff;
+$disabled: hsl(60 4.8% 95.9%);
+$disabled-foreground: hsl(25 5.3% 44.7%);
+$error: #dc3e42;
+$error-soft: #ffdbdc;
+$error-foreground: #fff;
+$success: #30a46c;
+$success-soft: #e6f6eb;
+$success-foreground: #fff;
+$border: #101828;
+$input: #fff;
+$radius: 0.75rem;
+
+// Shadows
+$shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+$shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+$shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+$shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+$shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+$shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);

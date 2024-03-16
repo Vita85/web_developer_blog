@@ -1,0 +1,88 @@
+.root {
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: $radius;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  box-shadow: $shadow;
+
+  &:disabled {
+    color: $disabled-foreground;
+    background-color: $disabled;
+    cursor: not-allowed;
+  }
+}
+
+.primary {
+  color: $primary-foreground;
+  background-color: $primary;
+}
+
+.secondary {
+  color: $secondary-foreground;
+  background-color: $secondary;
+}
+
+.error {
+  color: $error-foreground;
+  background-color: $error;
+}
+
+.success {
+  color: $success-foreground;
+  background-color: $success;
+}
+
+.primaryOutlined {
+  color: $primary;
+  outline: 2px solid $primary;
+  background-color: $background;
+}
+
+.secondaryOutlined {
+  color: $secondary;
+  outline: 2px solid $secondary;
+  background-color: $background;
+}
+
+.errorOutlined {
+  color: $error;
+  outline: 2px solid $error;
+  background-color: $background;
+}
+
+.successOutlined {
+  color: $success;
+  outline: 2px solid $success;
+  background-color: $background;
+}
+
+.soft {
+  font-weight: 500;
+}
+
+.primarySoft {
+  color: $primary;
+  background-color: $primary-soft;
+}
+
+.secondarySoft {
+  color: $secondary;
+  background-color: $secondary-soft;
+}
+
+.errorSoft {
+  color: $error;
+  background-color: $error-soft;
+}
+
+.successSoft {
+  color: $success;
+  background-color: $success-soft;
+}
+
+.fullWidth {
+  width: 100%;
+}
